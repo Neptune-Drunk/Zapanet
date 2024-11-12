@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapanet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #1b1b1b; /* Color negro oscuro */
+            color: #f8f8f8;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #f8f8f8;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .message-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: #c4c4c4; /* Gris claro */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .message-container img {
+            width: 500px;
+            border-radius: 8px;
+        }
+
+        .message-text {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .category-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .category-box {
+            position: relative;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .category-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .category-box h3 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: #ffffff;
+            font-size: 1.5em;
+            margin: 0;
+            background-color: rgba(139, 0, 0, 0.7); /* Rojo oscuro con opacidad */
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .about-us {
+            background-color: #c4c4c4; /* Gris claro */
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .about-us h2 {
+            font-size: 2em;
+            color: #1b1b1b; /* Negro oscuro */
+            margin-bottom: 10px;
+        }
+
+        .about-us p {
+            font-size: 1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer {
+            background-color: #1b1b1b; /* Color negro oscuro */
+            color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #f8f8f8;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Zapanet</div>
+        <nav>
+            <a href="#">Articulos</a>
+            <a href="#">Tienda</a>
+            <a href="#">Hombre</a>
+            <a href="#">Mujer</a>
+            <a href="#">Marcas</a>
+            <a href="#">Drops</a>
+            <a href="#">Contactanos</a>
+        </nav>
+    </header>
+
+    <div class="main">
+        <!-- Contenedor de mensaje con imagen al lado -->
+        <div class="message-container">
+            <div class="message-text">
+                <h2>Bienvenidos a Zapanet</h2>
+                <p>Descubre nuestra exclusiva colección de calzado para todas las edades y estilos. ¡Encuentra tus favoritos!</p>
+            </div>
+            <img src="https://cms-cdn.thesolesupplier.co.uk/2020/02/Jordan-1-Court-Purple-2020-555088-500-front.jpg" alt="Imagen de bienvenida">
+        </div>
+
+        <!-- Contenedor de categorías con imágenes y nombres -->
+        <div class="category-container">
+            <div class="category-box">
+                <img src="https://i.ebayimg.com/images/g/7AEAAOSwhm9iNzkR/s-l500.jpg" alt="Hombre">
+                <h3>HOMBRE</h3>
+            </div>
+            <div class="category-box">
+                <img src="https://i.pinimg.com/736x/c3/5e/1f/c35e1f084c463cc9ea6979819bf52ee1.jpg" alt="Mujer">
+                <h3>MUJER</h3>
+            </div>
+            <div class="category-box">
+                <img src="https://m.media-amazon.com/images/I/51NgxLxVGiS.jpg" alt="Niños">
+                <h3>NIÑOS</h3>
+            </div>
+        </div>
+
+        <!-- Contenedor Sobre Nosotros -->
+        <div class="about-us">
+            <h2>Sobre Nosotros</h2>
+            <p>Zapanet es una tienda de comercio electrónico especializada en la venta de todo tipo de calzado. Desde zapatillas deportivas y zapatillas de edición limitada hasta zapatos casuales y formales, ofrecemos una amplia gama de productos para satisfacer las necesidades de todos los amantes del calzado. Nuestro enfoque principal es brindar a los clientes una experiencia de compra fácil y premium, con la opción de adquirir modelos populares y exclusivos a través de nuestra plataforma en línea.</p>
+            <p>Además de nuestra oferta regular, Zapanet se distingue por organizar eventos especiales llamados <strong>Zapanet DROPS</strong>, en los cuales presentamos y vendemos zapatos altamente demandados, incluidas ediciones limitadas, colaboraciones especiales y sneakers que son difíciles de encontrar en el mercado.</p>
+        </div>  
+    </div>
+
+    <footer class="footer">
+        <p>&copy; © 2024 Zapanet, Todos los derechos reservados</p>
+        <nav>
+            <a href="#">Ayuda</a>
+            <a href="#">Servicio al cliente</a>
+        </nav>
+    </footer>
+</body>
+</html>
